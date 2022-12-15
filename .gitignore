@@ -1,0 +1,5 @@
+node_modules/
+dist.backup/
+tailwind.config.js.backup
+package.json
+package-lock.json

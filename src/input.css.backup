@@ -1,0 +1,30 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+	:root {
+		/* Primary */
+		--orange: 25deg 97% 53%;
+		/* Netral */
+		--white: 0deg 0% 100%;
+		--light-grey: 217deg 12% 63%;
+		--medium-grey: 216deg 12% 54%;
+		--dark-blue: 213deg 19% 18%;
+		--very-dark-blue: 216deg 12% 8%;
+	}
+}
+
+@font-face {
+	font-family: "Overpass";
+	src: url("./assets/fonts/Overpass/Overpass-VariableFont_wght.ttf");
+}
+
+.hidden {
+	display: none;
+}
+
+.attribution {
+	font-size: 11px;
+	text-align: center;
+}

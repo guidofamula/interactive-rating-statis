@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./src/assets/images/favicon-32x32.png"
+    />
+    <link href="./src/assets/css/styles.css" rel="stylesheet" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Frontend Mentor | Interactive rating component</title>
+  </head>
+  <body>
+    <main class="main-card">
+      <div
+        class="flex min-h-screen grid place-content-center bg-netral-v-d-blue font-body"
+      >
+        <div class="container">
+          <div class="justify-center">
+            <div
+              class="block rounded-2xl shadow-lg bg-netral-d-blue p-6 max-w-screen-sm"
+            >
+              <!-- Top Icon Start -->
+              <section>
+                <div
+                  class="w-10 h-10 bg-netral-m-grey bg-opacity-10 rounded-full"
+                >
+                  <img
+                    src="./src/assets/images/icon-star.svg"
+                    alt="Icon Star"
+                    class="pt-3 mx-auto opacity-80"
+                  />
+                </div>
+              </section>
+              <!-- Top Icon End -->
+              <!-- Content Text Start -->
+              <section>
+                <h5
+                  class="pb-3 pt-5 text-netral-white font-boldCustom text-[25px]"
+                >
+                  How did we do?
+                </h5>
+                <p
+                  class="text-netral-m-grey text-[14px] font-regularCustom tracking-tight"
+                >
+                  Please let us know how we did with your support request. All
+                  feedback is appreciated to help us improve our offering!
+                </p>
+              </section>
+              <!-- Content Text end -->
+              <!-- Button Choice Start -->
+              <section>
+                <div class="pt-5 flex justify-between">
+                  <button
+                    class="number-rate w-11 h-11 bg-netral-m-grey bg-opacity-20 text-netral-m-grey font-medium text-paragraph rounded-full shadow-md hover:bg-primary-orange hover:text-netral-white hover:shadow-lg focus:bg-netral-m-grey focus:text-white focus:shadow-lg focus:outline-none focus:ring-0 active:bg-primary-orange active:shadow-lg transition duration-300 ease-in-out"
+                  >
+                    1
+                  </button>
+                  <button
+                    class="number-rate w-11 h-11 bg-netral-m-grey bg-opacity-20 text-netral-m-grey font-medium text-paragraph rounded-full shadow-md hover:bg-primary-orange hover:text-netral-white hover:shadow-lg focus:bg-netral-m-grey focus:text-white focus:shadow-lg focus:outline-none focus:ring-0 active:bg-primary-orange active:shadow-lg transition duration-300 ease-in-out"
+                  >
+                    2
+                  </button>
+                  <button
+                    class="number-rate w-11 h-11 bg-netral-m-grey bg-opacity-20 text-netral-m-grey font-medium text-paragraph rounded-full shadow-md hover:bg-primary-orange hover:text-netral-white hover:shadow-lg focus:bg-netral-m-grey focus:text-white focus:shadow-lg focus:outline-none focus:ring-0 active:bg-primary-orange active:shadow-lg transition duration-300 ease-in-out"
+                  >
+                    3
+                  </button>
+                  <button
+                    class="number-rate w-11 h-11 bg-netral-m-grey bg-opacity-20 text-netral-m-grey font-medium text-paragraph rounded-full shadow-md hover:bg-primary-orange hover:text-netral-white hover:shadow-lg focus:bg-netral-m-grey focus:text-white focus:shadow-lg focus:outline-none focus:ring-0 active:bg-primary-orange active:shadow-lg transition duration-300 ease-in-out"
+                  >
+                    4
+                  </button>
+                  <button
+                    class="number-rate w-11 h-11 bg-netral-m-grey bg-opacity-20 text-netral-m-grey font-medium text-paragraph rounded-full shadow-md hover:bg-primary-orange hover:text-netral-white hover:shadow-lg focus:bg-netral-m-grey focus:text-white focus:shadow-lg focus:outline-none focus:ring-0 active:bg-primary-orange active:shadow-lg transition duration-300 ease-in-out"
+                  >
+                    5
+                  </button>
+                </div>
+              </section>
+              <!-- Button Choice End -->
+              <!-- Button Execute start -->
+              <section>
+                <div class="flex justify-center pt-6">
+                  <button
+                    id="button-submit"
+                    class="inline-block px-[100px] md:px-[122px] py-3 bg-primary-orange text-white tracking-[2px] font-boldCustom text-paragraph leading-tight uppercase rounded-full shadow-md hover:bg-netral-white hover:text-primary-orange hover:shadow-lg focus:bg-netral-white focus:shadow-lg focus:outline-none focus:ring-0 active:bg-primary-orange focus:text-primary-orange active:shadow-lg transition duration-300 ease-in-out"
+                  >
+                    Submit
+                  </button>
+                </div>
+              </section>
+              <!-- Button Execute end -->
+            </div>
+          </div>
+        </div>
+        <div class="attribution mt-2 text-netral-white">
+          Challenge by
+          <a
+            class="text-primary-orange hover:text-opacity-40 transition duration-300 ease-in-out"
+            href="https://www.frontendmentor.io?ref=challenge"
+            target="_blank"
+            >Frontend Mentor</a
+          >. Coded by
+          <a
+            class="text-primary-orange hover:text-opacity-40 transition duration-300 ease-in-out"
+            href="https://guidofamula.com"
+            >Guido Famula</a
+          >
+        </div>
+      </div>
+    </main>
+    <!-- Thanks card start -->
+    <section class="thanks hidden">
+      <div
+        class="flex min-h-screen grid place-content-center bg-netral-v-d-blue font-body"
+      >
+        <div class="container">
+          <div class="justify-center">
+            <div
+              class="block rounded-2xl shadow-lg bg-netral-d-blue p-6 max-w-screen-sm"
+            >
+              <div class="flex justify-center">
+                <img
+                  class="cursor-pointer mt-2"
+                  src="./src/assets/images/illustration-thank-you.svg"
+                  href="/"
+                />
+              </div>
+              <div class="flex justify-center">
+                <div
+                  class="cursor-pointer inline-block bg-netral-m-grey bg-opacity-20 rounded-full px-3 p-1 mt-4 text-[12px] text-opacity-80 text-primary-orange font-boldCustom"
+                >
+                  <p>You selected <span id="rate-testimoni"></span> out of 5</p>
+                </div>
+              </div>
+              <h4
+                class="text-center text-xl text-netral-white font-boldCustom mt-5"
+              >
+                Thank You!
+              </h4>
+              <p
+                class="text-netral-m-grey text-center text-[13px] font-boldCustom mt-2 mb-2"
+              >
+                We appreciate you taking the time to give a rating. If you ever
+                need more support, don’t hesitate to get in touch!
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="attribution mt-2 text-netral-white">
+          Challenge by
+          <a
+            class="text-primary-orange hover:text-opacity-40 transition duration-300 ease-in-out"
+            href="https://www.frontendmentor.io?ref=challenge"
+            target="_blank"
+            >Frontend Mentor</a
+          >. Coded by
+          <a
+            class="text-primary-orange hover:text-opacity-40 transition duration-300 ease-in-out"
+            href="https://guidofamula.com"
+            >Guido Famula</a
+          >
+        </div>
+      </div>
+    </section>
+    <!-- Thanks card end -->
+
+    <script src="./src/script.js"></script>
+  </body>
+</html>

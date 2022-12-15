@@ -35,7 +35,7 @@ Mobile Version
 
 ### Links
 
-- Solution URL: [frontmentor.io/solutions](https://www.frontendmentor.io/solutions/product-preview-card-component-wyFzuFT1mo)
+- Solution URL: [frontmentor.io/solutions](https://www.frontendmentor.io/solutions/interactive-rating-component-ezPE3EAh2F)
 - Live Site URL: [interactive-rating-gh-pages](https://guidofamula.github.io/interactive-rating-statis/)
 
 ### Built with
